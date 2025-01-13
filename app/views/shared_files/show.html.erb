@@ -1,0 +1,22 @@
+<div class="container mt-5">
+  <div class="card">
+    <div class="card-header">
+      <h2><%= @file.title %></h2>
+    </div>
+    <div class="card-body">
+      <p class="card-text"><%= @file.description %></p>
+      <div class="file-info mb-4">
+        <p>
+          <strong>Type:</strong> <%= @file.content_type %><br>
+          <strong>Size:</strong> <%= number_to_human_size(@file.file.byte_size) %><br>
+          <strong>Shared:</strong> <%= time_ago_in_words(@file.created_at) %> ago
+        </p>
+      </div>
+      
+      <%= link_to rails_blob_path(@file.file, disposition: 'attachment'), 
+          class: 'btn btn-primary btn-lg' do %>
+        <i class="fas fa-download"></i> Download File
+      <% end %>
+    </div>
+  </div>
+</div> 

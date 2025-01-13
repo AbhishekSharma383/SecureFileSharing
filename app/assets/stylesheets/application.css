@@ -1,0 +1,152 @@
+/* Navbar Styles */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .navbar-brand {
+    font-weight: 600;
+    font-size: 1.25rem;
+  }
+  
+  .nav-link {
+    font-weight: 500;
+  }
+  
+  /* Style the logout button to look like a nav link */
+  .btn.nav-link {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.9);
+    padding: 0.5rem 1rem;
+  }
+  
+  .btn.nav-link:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .btn.btn-danger.nav-link {
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  
+  /* User email style */
+  .navbar-nav .nav-link i {
+    margin-right: 5px;
+  }
+  
+  .share-section {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .input-group {
+    max-width: 600px;
+  }
+  
+  .copy-link {
+    transition: all 0.2s ease;
+  }
+  
+  .copy-link:hover {
+    background-color: #e9ecef;
+  }
+  
+  .btn-outline-danger {
+    margin-left: 0.5rem;
+  }
+  
+  /* Share link styles */
+  .share-section {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .input-group {
+    max-width: 600px;
+  }
+  
+  .copy-link {
+    transition: all 0.2s ease;
+  }
+  
+  .copy-link:hover {
+    background-color: #e9ecef;
+  }
+  
+  .btn-success {
+    transition: all 0.2s ease;
+  }
+  
+  /* File card styles */
+  .card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Button group spacing */
+  .btn-group .btn {
+    margin-right: 0.25rem;
+  }
+  
+  /* File info badges */
+  .badge {
+    font-size: 0.875rem;
+    padding: 0.5em 0.75em;
+  }
+  
+  /* File list styles */
+  .table {
+    margin-bottom: 0;
+  }
+  
+  .table td, .table th {
+    vertical-align: middle;
+  }
+  
+  .badge {
+    font-size: 0.85em;
+    padding: 0.4em 0.6em;
+  }
+  
+  .btn-group .btn {
+    padding: 0.25rem 0.5rem;
+  }
+  
+  .btn-group .btn i {
+    font-size: 0.9rem;
+  }
+  
+  /* Empty state styles */
+  .text-muted {
+    color: #6c757d;
+  }
+  
+  .fa-4x {
+    font-size: 4em;
+  }
+  
+  /* Card styles */
+  .card.shadow {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .table-responsive {
+      border: 0;
+    }
+    
+    .btn-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem;
+    }
+  }
